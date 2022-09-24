@@ -20,7 +20,3 @@
 echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
 git clone https://github.com/fw876/helloworld.git package/ssr
 git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
-git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
-git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
-# svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
