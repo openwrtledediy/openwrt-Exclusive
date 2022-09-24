@@ -19,4 +19,5 @@
 # Add a feed source
 echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
 git clone https://github.com/fw876/helloworld.git package/ssr
-git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
